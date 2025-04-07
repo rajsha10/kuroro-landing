@@ -407,13 +407,6 @@ const Hero: React.FC = () => {
             </motion.div>
           </div>
         </div>
-
-        {/* Right column: GltfViewer */}
-        <div className="w-full flex justify-center items-center">
-          <div className="w-full h-full md:max-h-full flex items-center justify-center absolute">
-            <GltfViewer url="./robot/scene.gltf" />
-          </div>
-        </div>
       </div>
 
       {/* Enhanced animated cursor follower with more dynamic effects */}
